@@ -2,6 +2,7 @@
     background: url(../../images/banners/hero.jpg) no-repeat center;
     background-size: cover;
     height: 500px;
+    border-radius: 20px;
 }
 
 .hero-overlay{
@@ -16,6 +17,7 @@
 .hero-content {
     color: #ffffff;
     max-width: 360px;
+    margin-right: 90px;
 }
 
 .hero-content .hero-title {
