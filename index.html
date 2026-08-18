@@ -11,12 +11,13 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/base.css">    
+    <link rel="stylesheet" href="./css/base.css">
 
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
     <link rel="stylesheet" href="./css/components/product-category.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
 
 </head>
 
@@ -119,41 +120,85 @@
                         <a href="#" class="btn btn-outline">Masculino</a>
                     </div>
                 </div>
-            </div>   
-            <div class="card top2"></div>   
-            <div class="card midL"></div>   
-            <div class="card midR"></div>   
-            <div class="card bottomL"></div>   
-            <div class="card bottomR"></div>   
+            </div>
+            <div class="card top2"></div>
+            <div class="card midL"></div>
+            <div class="card midR"></div>
+            <div class="card bottomL"></div>
+            <div class="card bottomR"></div>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-brand">
-                <a href="#" class="logo">Syntaxwear</a>
-            </div>
+    <footer class="site-footer" aria-label="Rodapé da loja" id="footer">
+        <div class="footer-content">
+            <div class="footer-left" aria-labelledby="newsletter">
+                <form class="newsletter-form" action="#" method="post">
+                    <h3 id="newsletter-title">Inscreva-se em nosso e-mail</h3>
+                    <input id="newsletter-email" type="email" name="email" placeholder="email@email.com"
+                        aria-label="Digite seu e-mail">
+                </form>
 
-            <div class="footer-links">
-                <nav aria-label="Links úteis">
-                    <h3>Links</h3>
+                <nav class="footer-socials" aria-label="Redes sociais">
+                    <span>Redes sociais</span>
                     <ul>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Loja</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#" aria-label="Instagram"><img src="./images/icons/insta.svg" alt="Instagram"></a>
+                        </li>
+                        <li><a href="#" aria-label="WhatsApp"><img src="./images/icons/wpp.svg" alt="WhatsApp"></a></li>
+                        <li><a href="#" aria-label="Tiktok"><img src="./images/icons/tiktok.svg" alt="Tiktok"></a></li>
+                        <li><a href="#" aria-label="Facebook"><img src="./images/icons/face.svg" alt="Facebook"></a>
+                        </li>
                     </ul>
                 </nav>
             </div>
 
-            <div class="footer-contact">
-                <h3>Contato</h3>
+
+            <nav class="footer-nav" aria-label="Navegação do rodapé">
                 <ul>
-                    <li><a href="mailto:contato@syntaxwear.com">contato@syntaxwear.com</a></li>
-                    <li><a href="tel:+5511999999999">(11) 99999-9999</a></li>
-                    <li>São Paulo, SP</li>
+                    <li>
+                        <strong>Masculino</strong>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Feminino</strong>
+                        <ul>
+                            <li><a href="#">Casual</a></li>
+                            <li><a href="#">Esporte</a></li>
+                            <li><a href="#">Moderno</a></li>
+                            <li><a href="#">Futurista</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Outlet</strong>
+                        <ul>
+                            <li><a href="#">Masculino</a></li>
+                            <li><a href="#">Feminino</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Nossas Lojas</strong>
+                        <ul>
+                            <li><a href="#">Loja física</a></li>
+                            <li><a href="#">Loja online</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Sobre</strong>
+                        <ul>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Missão</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright. All Rights Reserved</p>
         </div>
     </footer>
 </body>
